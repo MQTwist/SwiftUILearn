@@ -9,7 +9,11 @@ import SwiftUI
 
 struct CollectView: View {
     var body: some View {
-        Text("CollectView")
+        NavigationStack {
+            Text("CollectView")
+                .navigationTitle("收藏")
+                .navigationBarTitleDisplayMode(.large)
+        }
     }
 }
 

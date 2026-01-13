@@ -9,7 +9,11 @@ import SwiftUI
 
 struct AnimateView: View {
     var body: some View {
-        Text("AnimateView")
+        NavigationStack {
+            Text("AnimateView")
+                .navigationTitle("动画")
+                .navigationBarTitleDisplayMode(.large)
+        }
     }
 }
 
